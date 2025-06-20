@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pointeuse GPS Armitec</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Manifest PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#007bff">
+  <link rel="icon" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%; width: 100%;
+      background: #1c1c1c; color: #fff; font-family: system-ui, sans-serif;
+      display: flex; align-items: center; justify-content: center;
+      height: 100vh;
+    }
+    .launch-btn {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      padding: 1.2em 2em;
+      font-size: 1.5em;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px #0003;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .launch-btn:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <button class="launch-btn" onclick="window.location.href='https://script.google.com/macros/s/AKfycbwHFF44ay3rDROVGZ3EC-5KG65sbcr8RC7OnOPsNgMg1LlugmEATMzBL2yHHFvNXV8/exec'">
+    Ouvrir la Pointeuse GPS
+  </button>
+  <!--
+  Pour une redirection automatique sans clic, décommente la ligne ci-dessous :
+  <script>
+    window.location.href = 'https://script.google.com/macros/s/AKfycbwHFF44ay3rDROVGZ3EC-5KG65sbcr8RC7OnOPsNgMg1LlugmEATMzBL2yHHFvNXV8/exec';
+  </script>
+  -->
+</body>
+</html>
